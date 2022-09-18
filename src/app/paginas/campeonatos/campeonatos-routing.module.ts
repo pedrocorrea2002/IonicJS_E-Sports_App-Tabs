@@ -15,7 +15,7 @@ const routes: Routes = [
   {
     path: 'internacional',
     loadChildren: () => import('./subpaginas/internacional/internacional.module').then( m => m.InternacionalPageModule)
-  }
+  },
 ];
 
 @NgModule({
